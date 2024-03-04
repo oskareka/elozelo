@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elo Żelo</title>
+    <link rel="stylesheet" href="style.css"> <!-- Podłącz arkusz stylów -->
+</head>
+<body>
+    <header>
+<center>        <h1>Elo Żelo Wariacje</h1> </center>
+</header>
+<center>
+        <section>
+            <img src="dj.gif" alt="Obrazek" id="obrazek" onclick="playMusicAt20Seconds()">
+        </section>
+    </main>
+
+    <footer>
+        <p>discord: oskareka</p>
+    </footer>
+</center>
+    <script>
+        function playMusicAt20Seconds() {
+            var audio = new Audio("muza.mp3");
+            audio.currentTime = 20; // Ustaw czas rozpoczęcia odtwarzania na 20 sekund
+            audio.play();
+        }
+    </script>
+</body>
+</html>
